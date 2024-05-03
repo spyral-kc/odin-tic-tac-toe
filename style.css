@@ -1,0 +1,12 @@
+#grid {
+    display: grid;
+    grid-template: 50px 50px 50px / 50px 50px 50px;
+}
+
+#grid > div {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 50px;
+    width: 50px;
+}
